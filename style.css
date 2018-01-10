@@ -1,4 +1,4 @@
-#logorecherche {
+#logo {
   width: 500px;
   margin: auto;
   margin-top: 200px;
@@ -9,45 +9,52 @@
 
 #recherche {
   width: 500px;
-  /* margin: auto; */
+  margin: auto;
   display: flex;
+  box-shadow: 2px 2px 4px #FFFFFF;
 }
 
 #boutons {
   width: 500px;
   margin: auto;
-  /* margin-top: 300px; */
+  margin-top: 20px;
   display: flex;
   /* flex-flow: row; */
   flex-direction: row;
-  align-self: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #navigation {
   display: flex;
   flex-flow: row;
   list-style-type: none;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   margin-top: 10px;
-  margin-left: 1400px;
+  margin-left: 1500px;
   margin-right: 20px;
 }
 
+/*
 #carre {
   background-image: url('img/i1_1967ca6a.png');
   background-size: 528px 68px;
 }
+*/
 
+/*
 #photo {
   border-radius: 50%;
   display: block;
 }
+*/
 
+/*
 #footer {
   font-family: Arial, Helvetica, sans-serif;
-  /* margin-top: 10px;
+  margin-top: 10px;
   margin-left: 1400px;
-  margin-right: 20px; */
+  margin-right: 20px;
 }
 
 #footer.ul {
@@ -68,4 +75,31 @@
   display: flex;
   flex-flow: row;
   list-style-type: none;
+}
+*/
+
+/* Nouveaux styles */
+
+a.lien-nav {
+  color: black;
+  text-decoration: none;
+
+}
+
+a:hover.lien-nav {
+  text-decoration: underline;
+}
+
+a:link.connexion, a:visited.connexion {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
