@@ -1,0 +1,6 @@
+#formulaire {
+  width: 500px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
