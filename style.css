@@ -38,7 +38,7 @@
 footer {
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 ul.listBas {
@@ -47,6 +47,7 @@ ul.listBas {
     list-style-type: none;
     display: block;
     margin: 0px;
+    padding: 14px;
 }
 
 li {
@@ -82,11 +83,11 @@ body {
 }
 
 #base {
-  margin-top: 475px;
+  margin-top: 445px;
 }
 
 a.lien-footer {
-  color: black;
+  color: #666;
   text-decoration: none;
 
 }
