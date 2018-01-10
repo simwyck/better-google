@@ -1,0 +1,71 @@
+#logorecherche {
+  width: 500px;
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#recherche {
+  width: 500px;
+  /* margin: auto; */
+  display: flex;
+}
+
+#boutons {
+  width: 500px;
+  margin: auto;
+  /* margin-top: 300px; */
+  display: flex;
+  /* flex-flow: row; */
+  flex-direction: row;
+  align-self: center;
+}
+
+#navigation {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-left: 1400px;
+  margin-right: 20px;
+}
+
+#carre {
+  background-image: url('img/i1_1967ca6a.png');
+  background-size: 528px 68px;
+}
+
+#photo {
+  border-radius: 50%;
+  display: block;
+}
+
+#footer {
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-top: 10px;
+  margin-left: 1400px;
+  margin-right: 20px; */
+}
+
+#footer.ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+}
+
+#footer-gauche {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+}
+
+#footer-droit {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+}
